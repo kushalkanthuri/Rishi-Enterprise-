@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     gap : 50px;
+    
    
 }
 a{
@@ -17,13 +18,14 @@ a:active{
 }
 .logo {
     height : 100px;
-    aspect-ratio: 1200/628;
+    aspect-ratio: 1024/1024;
 }
 header{
     display : flex;
     justify-content: space-between;
     align-items: center;
     padding: 0, 30px;
+    background-color: rgba(12,34,57,255);
 }
 .container {
     width: 100%;
@@ -34,7 +36,7 @@ header{
 }
 
 .image{
-    aspect-ratio: 1040/585;
+    aspect-ratio: 1024/585;
     height : 300px;
     border-radius: 10px;
    
