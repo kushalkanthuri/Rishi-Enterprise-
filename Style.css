@@ -8,3 +8,8 @@ a{
 a:hover{
     cursor: pointer;
 }
+a:active{
+    color:orangered;
+    text-decoration: underline;
+    
+}
