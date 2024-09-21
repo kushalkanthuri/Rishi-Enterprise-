@@ -1,12 +1,18 @@
+*{
+    padding:0;
+    margin:0;
+}
 .nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-arround;
     gap : 50px;
+
     
    
 }
-a{
+nav a{
     text-decoration: none;
+    color:white;
 }
 a:hover{
     cursor: pointer;
@@ -24,7 +30,7 @@ header{
     display : flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0, 30px;
+    /* padding: 0, 0px; */
     background-color: rgba(12,34,57,255);
 }
 .container {
@@ -58,4 +64,11 @@ html,body {
     align-items: right;
     padding: 10px,10px;
     margin-left: 30px;
+}
+.seemore{
+    border:2px solid black;
+    text-decoration: none;
+    font-weight:400;
+    font-style: bold;
+
 }
